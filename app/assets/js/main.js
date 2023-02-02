@@ -4,7 +4,7 @@ var slideUp = {
     opacity: null
 };
 window.sr = ScrollReveal({reset:true})
-ScrollReveal().reveal('.headline',slideUp);
+
 sr.reveal('.titulo-sobre',{ duration : 5000});
 sr.reveal('.texto-sobre', {
     duration: 5000
