@@ -1,5 +1,26 @@
-ScrollReveal().reveal('.headline');
-ScrollReveal().reveal('.sobre');
+var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+window.sr = ScrollReveal({reset:true})
+ScrollReveal().reveal('.headline',slideUp);
+sr.reveal('.titulo-sobre',{ duration : 5000});
+sr.reveal('.texto-sobre', {
+    duration: 5000
+});
+sr.reveal('.imagem-sobre', {
+    duration: 5000
+})
+sr.reveal('.imagem-sobre', {
+    duration: 5000
+})
+
+sr.reveal('.botaoo ', {
+    duration: 10000
+})
+
+
 
 function botaoLinkedin() {
     document.querySelector('.botao-1').addEventListener('click',function botaoGIT(){

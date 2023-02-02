@@ -79,6 +79,10 @@ header {
     width: 100px;
     padding: 20px;
 }
+.iconezinho2 {
+    width: 100px;
+    padding: 20px;
+}
 
 .botao {
     padding: 20px;
@@ -176,3 +180,8 @@ button:hover.botaoo {
 
 
 
+
+
+.titulo-sobre, .botaoo , .imagem-sobre, .titulo-sobre, .texto-sobre, .iconezinho2 {
+   visibility: hidden;
+}
