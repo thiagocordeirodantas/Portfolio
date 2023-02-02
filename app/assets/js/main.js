@@ -16,8 +16,16 @@ function botaoLinkedin() {
 }
 
 
+function BaixarCurriculo(){
+    
+}
 
+function email (){
+    document.querySelector('.botao-curriculo').addEventListener('click',function Emaiel(){
+        return  window.location.href = 'https://mail.google.com/mail/u/0/#sent?compose=CllgCJqSvnbrGWVLDnnMtbHnCkSJhKjzZhtkrNtKRHmmvndklvtwScZtqRQvQmJdFwshpdxGCqB'
+})}
    
        
 botaoLinkedin();
 botaoGitHub();
+email();
