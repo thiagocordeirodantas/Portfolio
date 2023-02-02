@@ -98,12 +98,6 @@ header {
    
 }
 
-.botao-link {
-    text-decoration: none;
-    color: white;
-
-}
-
 .imagem-icone {
     margin: 0 auto;
     padding: 10px;
@@ -114,7 +108,5 @@ header {
 
 
 button:hover {
-    background-color: #B2B2B2
-    
+    background-color: #B2B2B2;
 }
-
