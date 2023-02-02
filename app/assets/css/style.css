@@ -4,9 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 :root {
     --font-header:  'Arimo', sans-serif;
+    --cor-fundo: #251B37;
 }
 
 header {
@@ -136,6 +138,25 @@ button:hover.botaoo {
     background-color: #fca9ff;
 }
 
+button:hover.botao3 {
+    background-color: #82a3ff4d;
+}
+
+@-webkit-keyframes bonequinho {
+    from {-webkit-transform: rotate(4deg)}
+    to   {-webkit-transform: rotate(-4deg)}
+}
+
+@keyframes bonequinho {
+    from {transform: rotate(4deg)}
+    to   {transform: rotate(-4deg)}
+}
+
+#bonequinho {
+    -webkit-animation: bonequinho 2s alternate infinite ease-in-out;
+            animation: bonequinho 2s alternate infinite ease-in-out;
+}
+
 
 
 @keyframes ponteiro {
@@ -180,9 +201,58 @@ button:hover.botaoo {
 }
 
 
-
-
-
 .titulo-sobre, .botaoo , .imagem-sobre, .titulo-sobre, .texto-sobre, .iconezinho2 {
    visibility: hidden;
 }
+
+
+.projeto-titulo,.card,.texto-apresentacao,.botao,.iconezinho,.apresentacao-imagem,.navegacao-item {
+    visibility: hidden;
+}
+
+
+
+
+/* PROJETOS */
+
+#projetos {
+    margin: 0 auto;
+    background-color: var(--cor-fundo);
+   text-align: center;
+   color: white;
+   width: 100%;
+}
+
+.projects {
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    margin: 50px;
+    background-color: var(--cor-fundo);
+    border: none;
+    
+}
+
+
+.imagem-frutas {
+   width: 100%;
+}
+
+.botao-projeto, .botao-projeto1,.botao-projeto2,.botao-projeto3 {
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.projeto-titulo {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px
+
+}
+
+
