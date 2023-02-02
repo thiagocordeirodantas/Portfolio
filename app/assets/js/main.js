@@ -1,4 +1,5 @@
 ScrollReveal().reveal('.headline');
+ScrollReveal().reveal('.sobre');
 
 function botaoLinkedin() {
     document.querySelector('.botao-1').addEventListener('click',function botaoGIT(){
