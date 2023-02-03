@@ -221,6 +221,7 @@ button:hover.botao3 {
 .imagem-sobre {
     width: 70%;
     margin: 50px 50px 50px 50px;
+    border-radius: 10px;
 }
 
 
