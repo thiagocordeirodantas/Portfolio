@@ -1,0 +1,43 @@
+@media (max-width : 468px )  {
+
+header {
+    display: inline;
+    position: relative;
+    align-items: center;
+}
+
+.navegacao-item {
+   margin: 0 auto;
+}
+
+.apresentacao-imagem {
+    display: none;
+}
+
+.iconezinho {
+    display:  none;
+}
+
+.botao {
+   flex-direction: column;
+   margin: 0 auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    
+}
+
+.apresentacao {
+    margin: 0 auto;
+    
+}
+
+aside.conteudo {
+    flex-direction: column;
+}
+
+.imagem-sobre {
+    display: none;
+}
+
+
+}
